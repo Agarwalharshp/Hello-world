@@ -1,0 +1,113 @@
+body {
+  background-color:black;
+font-family:  "Microsoft JhengHei UI";
+opacity: 07;
+}
+
+fieldset{
+border: 5px solid white;
+box-shadow: 0 0 20px 0 #00bdd2;
+margin:auto;
+margin-top: 60px;
+color:white;
+border-radius:50px;
+font-family: : "Segoe UI Emoji";
+padding:20px;
+width:40%;
+height:60%}
+
+.title{
+  color:white;
+  margin-top: 500px;
+
+
+}
+
+.header{
+  margin-top: 45px;
+  border-bottom:2px solid cyan;
+  border-top:2px solid cyan}
+.I1{
+  margin-left: 572px;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+a:hover{
+  color:#e948ef;
+}
+a:active{
+     color: #e0be00;
+     transition:.7s;
+   }
+
+li{
+  color:white;
+  display:inline;
+  text-align: center;
+  letter-spacing: .23em;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+legend{
+font-family:"Candara light";
+margin-bottom: : 40px;
+letter-spacing:0.21em;
+color:white;
+text-transform: capitalize;
+
+opacity:2.3;
+font-size:55px}
+
+.text{
+  outline: none;
+  border-radius: 25px;
+  border: 2.7px solid cyan;
+  opacity: 0.7;
+  color:white;
+  width: 260px;
+  text-align: center;
+  letter-spacing: 0.23em;
+  padding:12px 6px ;
+  margin: 25px 240px ;
+  background-color: black;
+}
+
+.text:focus{
+  transition: 1.2s;
+  border-color: #00ffd5;
+  box-shadow: 0 0 18px 0 darkcyan;
+}
+
+.username{
+  margin-top: 75px;
+}
+
+.button{
+
+  outline:none;
+  border-radius: 25px;
+  border: 2.7px solid #009893;
+  color:white;
+  width: 180px;
+  box-shadow:0 0 3px 0 #0400ff;
+  text-align: center;
+  letter-spacing: 0.2em;
+  padding:12px 6px ;
+  margin: 20px 280px ;
+  background-color: black;
+  font-family: "Microsoft JhengHei UI " ;
+  font-size: 17px;
+}
+
+ .button:hover{
+   cursor:pointer;
+   background: linear-gradient(#0da275,#0595ab);
+   border-color:
+  }
+
+ .button:active{
+      background: linear-gradient(#d33838,#e0be00);
+}
