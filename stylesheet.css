@@ -1,0 +1,45 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: "montserrat",sans-serif;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg,rgba(34,193,195,1)19%,rgba(40,66,180,1)86%);
+    height:100vh;
+    background-size: cover;
+    width:100%;
+}
+.container{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #262626;
+}
+.container h1{
+    font-size: 160px;
+    margin:0;
+    letter-spacing: 20px;
+      background: url(willian-justen-de-vasconcellos-1135258-unsplash.jpg) center no-repeat;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-image: -webkit-linear-gradient(top, #FF2B00, #FF6489);
+    background-image: linear-gradient(to bottom, #FF2B00, #FF6489)
+}
+.container a{
+    text-decoration: none;
+    padding:10px 15px;
+    background: rgb(0,191,255);
+    color: #fff;
+    display: inline-block;
+    transition: 0.5s;
+    border-radius: 24px;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+.container a:hover{
+    padding:10px 15px;
+    background: rgb(30,144,255);
+    color: #fff;
+}
